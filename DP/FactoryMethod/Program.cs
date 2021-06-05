@@ -10,7 +10,7 @@ namespace FactoryMethod
 
             var product1 = factory.CreateProduct(1);
             product1.ShowInfo();
-            var product2 = factory.CreateProduct(3);
+            var product2 = factory.CreateProduct(2);
             product2.ShowInfo();
         }
     }
